@@ -16,9 +16,9 @@
         <module>eth</module>
         <module>erc-token</module>
         <module>eth-support</module>
-        <module>act</module>
+        <!--<module>act</module>-->
         <module>ect</module>
-        <module>xrp</module>
+        <!--<module>xrp</module>-->
         <module>bch</module>
         <module>ltc</module>
         <module>erc-eusdt</module>
@@ -85,8 +85,13 @@
                 <artifactId>rpc-common</artifactId>
                 <version>${project-version}</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>com.bizzan.bc.wallet</groupId>
+                <artifactId>eth-support</artifactId>
+                <version>${project-version}</version>
+            </dependency>-->
+            <dependency>
+                <groupId>com.bizzan.wallet</groupId>
                 <artifactId>eth-support</artifactId>
                 <version>${project-version}</version>
             </dependency>

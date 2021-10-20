@@ -65,11 +65,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.bizzan.bc.wallet</groupId>
             <artifactId>eth-support</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>com.bizzan.wallet</groupId>
+            <artifactId>eth-support</artifactId>
         </dependency>
-
     </dependencies>
     <build>
         <finalName>${project.artifactId}-${version}</finalName>
