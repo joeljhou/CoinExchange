@@ -85,13 +85,8 @@
                 <artifactId>rpc-common</artifactId>
                 <version>${project-version}</version>
             </dependency>
-            <!--<dependency>
-                <groupId>com.bizzan.bc.wallet</groupId>
-                <artifactId>eth-support</artifactId>
-                <version>${project-version}</version>
-            </dependency>-->
             <dependency>
-                <groupId>com.bizzan.wallet</groupId>
+                <groupId>com.bizzan.bc.wallet</groupId>
                 <artifactId>eth-support</artifactId>
                 <version>${project-version}</version>
             </dependency>
